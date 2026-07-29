@@ -1,18 +1,22 @@
-// components/Footer.jsx
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="container">
-        <div className="footer-content">
-          <div className="social-links">
-            <a href="https://github.com/yourusername" target="_blank">GitHub</a>
-            <a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a>
-            <a href="https://twitter.com/yourusername" target="_blank">Twitter</a>
-          </div>
-          <p>&copy; {new Date().getFullYear()} Mohit Kumar Mathur. All rights reserved.</p>
+        <div className="social-links">
+          <a href="https://github.com/thmohitmathur" target="_blank" rel="noreferrer">
+            GitHub
+          </a>
+          <a href="https://linkedin.com/in/thmohitmathur" target="_blank" rel="noreferrer">
+            LinkedIn
+          </a>
+          <a href="https://twitter.com/thmohitmathur" target="_blank" rel="noreferrer">
+            Twitter
+          </a>
         </div>
+        <p>&copy; {new Date().getFullYear()} Mohit Kumar Mathur. All rights reserved.</p>
       </div>
     </footer>
   );
 };
+
 export default Footer;
