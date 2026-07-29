@@ -21,7 +21,7 @@ const doItems = [
   },
 ];
 
-const skills = ['JavaScript', 'React', 'Node.js', 'Express', 'MongoDB', 'HTML', 'CSS', 'Git'];
+const skills = ['JavaScript', 'React', 'Node.js', 'Express', 'Spring Boot', 'MongoDB', 'HTML', 'CSS', 'Git'];
 
 const About = () => {
   const { ref, inView } = useInView({ threshold: 0.15, triggerOnce: true });

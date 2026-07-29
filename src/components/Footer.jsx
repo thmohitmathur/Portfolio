@@ -9,7 +9,7 @@ const Footer = () => {
           <a href="https://linkedin.com/in/thmohitmathur" target="_blank" rel="noreferrer">
             LinkedIn
           </a>
-          <a href="https://twitter.com/thmohitmathur" target="_blank" rel="noreferrer">
+          <a href="https://x.com/MoggerMoggs" target="_blank" rel="noreferrer">
             Twitter
           </a>
         </div>
